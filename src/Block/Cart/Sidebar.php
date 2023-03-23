@@ -37,7 +37,7 @@ class Sidebar extends Template
      */
     public function __construct(
         Template\Context $context,
-        \Kiwicommerce\Shippingbar\Helper\Data $helper,
+        \AliwSolutions\MiniCart\Helper\Data $helper,
         array $data = []
     ) {
         parent::__construct($context, $data);
