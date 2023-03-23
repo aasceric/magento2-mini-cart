@@ -2,7 +2,7 @@
   "name": "aliwsolutions/magento2-minicart",
   "description": "Magento 2 MiniCart Extension",
   "type": "magento2-module",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "proprietary",
   "minimum-stability": "stable",
   "autoload": {

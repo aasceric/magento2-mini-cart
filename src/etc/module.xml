@@ -20,7 +20,7 @@
      * @license     https://www.aliw-solutions.com/LICENSE.txt
      */
     -->
-    <module name="AliwSolutions_MiniCart" setup_version="1.0.0">
+    <module name="AliwSolutions_MiniCart" setup_version="1.0.1">
         <sequence>
             <module name="Magento_Checkout"/>
             <module name="Magento_Tax"/>
