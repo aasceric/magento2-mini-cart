@@ -1,0 +1,23 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <head>
+            <css src="AliwSolutions_MiniCart::css/miniprogress.css"/>
+        </head>
+        <referenceContainer name="minicart.addons">
+            <block class="AliwSolutions\MiniCart\Block\Cart\Sidebar" name="shipping_bar" template="AliwSolutions_MiniCart::cart/minicart.phtml">
+                <arguments>
+                    <argument name="jsLayout" xsi:type="array">
+                        <item name="components" xsi:type="array">
+                            <item name="minicart-addons" xsi:type="array">
+                                <item name="component" xsi:type="string">AliwSolutions_MiniCart/js/view/minicartaddons</item>
+                                <item name="config" xsi:type="array">
+                                    <item name="template" xsi:type="string">AliwSolutions_MiniCart/minicartaddons/content</item>
+                                </item>
+                            </item>
+                        </item>
+                    </argument>
+                </arguments>
+            </block>
+        </referenceContainer>
+    </body>
+</page>

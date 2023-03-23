@@ -1,0 +1,18 @@
+{
+  "name": "aliwsolutions/magento2-minicart",
+  "description": "Magento 2 MiniCart Extension",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "license": "proprietary",
+  "minimum-stability": "stable",
+  "autoload": {
+    "files": [
+      "src/registration.php"
+    ],
+    "psr-4": {
+      "AliwSolutions\\MiniCart\\": "src"
+    }
+  },
+  "require": {
+  }
+}
